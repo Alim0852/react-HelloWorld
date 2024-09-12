@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6e8efb, #a777e3); 
+  font-family: 'Arial', sans-serif; 
+}
+
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold; 
+  color: #fff; 
+  text-align: center; 
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  margin: 0;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  animation: glow 1.5s infinite alternate; 
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+}
